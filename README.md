@@ -1,6 +1,6 @@
 # twitter-streaming
 ## Store Tweets from Twitter Public Streaming API into NoSQL databases
-NOTE: This repo is only for teaching purposes only :)
+**NOTE**: This repo is only for teaching purposes only :)
 
 ### Node.js and NPM
 First let's install NVM:

@@ -25,3 +25,7 @@ Last, run this command to install dependencies:
 ```
 npm i
 ```
+### Setup Twitter
+Please create an account from here:
+
+[Twitter Apps](https://apps.twitter.com/)

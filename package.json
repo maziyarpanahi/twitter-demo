@@ -1,0 +1,29 @@
+{
+  "name": "twitter-streaming",
+  "version": "1.0.0",
+  "description": "Store Tweets from Twitter Public Streaming API into NoSQL databases",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maziyarpanahi/twitter-streaming.git"
+  },
+  "author": "Maziyar PANAHI <maziyar.panahi@iscpif.fr> (http://iscpif.fr/maziyar)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maziyarpanahi/twitter-streaming/issues"
+  },
+  "homepage": "https://github.com/maziyarpanahi/twitter-streaming#readme",
+  "dependencies": {
+    "async": "2.6.0",
+    "elasticsearch": "14.1.0",
+    "lodash": "4.17.4",
+    "mongodb": "3.0.2",
+    "neo4j": "2.0.0-RC2",
+    "redis": "2.8.0",
+    "twit": "2.2.9",
+    "underscore": "1.8.3"
+  }
+}

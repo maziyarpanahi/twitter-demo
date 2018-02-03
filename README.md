@@ -15,6 +15,13 @@ source ~/.bashrc
 ```
 Second, install the latest Node.js and NPM via NVM:
 ```
+nvm i v8
+nvm alias default v8.
+npm install -g npm
+```
+
+NOTE: run this if you already have Node.js installed
+```
 nvm i v8 --reinstall-packages-from=default
 nvm alias default v8.
 npm install -g npm

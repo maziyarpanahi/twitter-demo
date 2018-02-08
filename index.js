@@ -5,11 +5,11 @@ let twitter_helpers = require('./config/TwitterAuth');
 
 
 let TwitterStreaming = twitter_helpers.twitterAuth.stream('statuses/filter', {
-    track: "big data, bigdata"
+    track: "big data,bigdata,apple,google,twitter"
 });
 TwitterStreaming.on('tweet', function (tweet) {
     if(tweet.id){
-
+        console.log(tweet.text);
 
 
     }

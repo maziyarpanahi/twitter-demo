@@ -39,11 +39,11 @@ Last, run this command to install dependencies:
 npm i
 ```
 ### Setup Twitter Application
-Please create an account from here:
+1. Please create an account from here:
 
 [Twitter Apps](https://apps.twitter.com/)
 
-Complete the `TwitterAuth.js` file inside `conf` directory accordingly. 
+2. Complete the `TwitterAuth.js` file inside `conf` directory accordingly. 
 
 ### Start the app
 ```

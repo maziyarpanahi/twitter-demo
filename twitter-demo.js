@@ -3,8 +3,6 @@ let twitter_helpers = require('./config/TwitterAuth');
 
 let mongoDB_helpers = require('./lib/mongo_helpers');
 
-
-
 let TwitterStreaming = twitter_helpers.twitterAuth.stream('statuses/filter', {
     track: "big data,bigdata,apple,google,twitter"
 });

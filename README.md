@@ -43,7 +43,7 @@ npm i
 ### Setup Twitter Application
 1. Please create an account from here:
 
-[Twitter Apps](https://apps.twitter.com/)
+[Twitter Apps](https://developer.twitter.com)
 
 2. Complete the `TwitterAuth.js` file inside `conf` directory accordingly. 
 

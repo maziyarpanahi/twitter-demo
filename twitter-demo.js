@@ -9,7 +9,7 @@ let TwitterStreaming = twitter_helpers.twitterAuth.stream('statuses/filter', {
 TwitterStreaming.on('tweet', function (tweet) {
     if(tweet.id){
         // console.log(tweet.text);
-        mongoDB_helpers.IndexTweetsIntoMongoDB(tweet);
+        mongoDB_helpers.IndexTweetsIntoMongoDB("tweets", tweet);
 
     }
 });

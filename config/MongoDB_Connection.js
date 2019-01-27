@@ -9,7 +9,7 @@ const dbName = 'twitter';
 // Use connect method to connect to the server
 exports.CreateConnectionToMongoDB = function (callback) {
 
-    MongoClient.connect(url, function(err, client) {
+    MongoClient.connect(url, { useNewUrlParser: true }, function(err, client) {
         if(!err){
             console.log("Connected successfully to server");
             callback(client.db(dbName));

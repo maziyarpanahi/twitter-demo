@@ -1,4 +1,4 @@
-# twitter-streaming
+# twitter-streaming-demo
 
 ## Store Tweets from Twitter Public Streaming API into NoSQL databases
 

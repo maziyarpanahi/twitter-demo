@@ -22,7 +22,7 @@
     "lodash": "4.17.11",
     "mongodb": "3.1.13",
     "redis": "2.8.0",
-    "twit": "git@github.com:maziyarpanahi/twit.git",
+    "twit": "2.2.11",
     "underscore": "1.9.1"
   }
 }
